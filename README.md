@@ -19,35 +19,7 @@ npx expo-cli init my-blog --npm
 
 npm start
 
--- Generate Build
 
-keytool -genkey -v -keystore my_first_mobile_app.keystore -alias my_first_mobile_app -keyalg RSA -keysize 2048 -validity 10000
-
-
-E:\react_native_applications\rn-starter>keytool -genkey -v -keystore my_first_mobile_app.keystore -alias my_first_mobile_app -keyalg RSA -keysize 2048 -validity 10000
-Enter keystore password:
-Re-enter new password:
-What is your first and last name?
-  [Unknown]:  Amarjeet
-What is the name of your organizational unit?
-  [Unknown]:  exam my self
-What is the name of your organization?
-  [Unknown]:  EMS
-What is the name of your City or Locality?
-  [Unknown]:  Noida
-What is the name of your State or Province?
-  [Unknown]:  UP
-What is the two-letter country code for this unit?
-  [Unknown]:  in
-Is CN=Amarjeet, OU=exam my self, O=EMS, L=Noida, ST=UP, C=in correct?
-  [no]:  yes
-
-Generating 2,048 bit RSA key pair and self-signed certificate (SHA256withRSA) with a validity of 10,000 days
-        for: CN=Amarjeet, OU=exam my self, O=EMS, L=Noida, ST=UP, C=in
-[Storing my_first_mobile_app.keystore]
-
------------------------
-mv my_first_mobile_app.keystore /android/app
 
 
 ##REACT NAVIGATION FIX
