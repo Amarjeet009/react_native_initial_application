@@ -1,0 +1,17 @@
+{
+  "name": "json-ngrok-server",
+  "version": "1.0.0",
+  "description": "this project is creating for local server which is help full for testing local api as server matchine",
+  "main": "index.js",
+  "scripts": {
+    "db": "json-server -w db.json",
+    "tunnel": "ngrok http 3000",
+    "start": "ngrok http 3000"
+  },
+  "author": "amarjeet rao",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "ngrok": "^3.4.0"
+  }
+}
